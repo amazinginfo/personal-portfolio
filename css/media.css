@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+
+    body {
+        font-size: calc(.8em + 1vw);
+    }
+
+    .about img {
+        height: 200px;
+        position: relative;
+        left: 25%;
+
+    }
+
+    .hero {
+        height: 120%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 93%, 0% 100%);
+    }
+
+    nav .row .col-sm-10 {
+        font-size: .9rem;
+
+    }
+}

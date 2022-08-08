@@ -1,0 +1,17 @@
+.d-block{
+    display: block;
+}
+.fw-bold{
+    font-weight: 650;
+}
+.bg-white{
+    background-color: var(--primary-color);
+}
+.color-white{
+    color: var(--primary-color);
+}
+.bg-aqua{
+    background-color: var(--secondary-color);
+}
+.color-aqua{
+    color: var(--secondary-color);
