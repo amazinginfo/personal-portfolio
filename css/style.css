@@ -320,16 +320,21 @@ a {
 
 .skills .container .row {
 
-      border: 5px solid red;
+      /* border: 5px solid red; */
       align-items: center;
 }
+
 
 .skills .container .row .col {
       height: 300px;
       width: 250px;
-      border: 2px solid red;
-      margin: 30px 0;
+      /* border: 2px solid red; */
       color: black;
       font-size: .5rem;
-
+      background-color: rgba(128, 128, 128, 0.316);
+            border-radius: 6px;
+      }
+      
+                                                 .skills .container .row .middle {
+                                                       background-color: rgba(95, 206, 206, 0.837);
 }
