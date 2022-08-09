@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Faustina:wght@300&display=swap');
 
 :root {
-      --primary-color: white;
+--primary-color: rgb(213, 225, 227);
       --secondary-color: rgb(6, 176, 243);
       --ternary-color: rgba(0, 0, 0, 0.261);
-      --dark: black;
+      --dark: rgb(0, 2, 8);
       --font-a: 'Roboto', sans-serif;
       --font-b: 'Vidaloka', serif;
       --font-c: 'Antic Slab', serif;
@@ -15,6 +15,7 @@
 
 html,
 body {
+      background-color: var(--primary-color);
       font-size: calc(.8em + 1vw);
       font-family: var(--font-a);
       scroll-behavior: smooth;
@@ -165,7 +166,7 @@ nav .btn:hover {
       border: 2px solid var(--secondary-color)/;
       
       box-shadow: rgba(1, 39, 39, 0.427) 0px 60px 60px -10px;
-      border: 2px solid white;
+
 }
 
 .hero .container .row .col-12 img {
@@ -276,7 +277,7 @@ a {
       /* margin-top: -10px; */
       width: 90%;
       /* padding: 10vmin 0;  */
-      padding-bottom: 15vmin;
+      padding-bottom: 10px;
       position: relative;
       /* left: 50px; */
       justify-content: center;
@@ -285,10 +286,12 @@ a {
 
 .about p {
       /* max-width: 10vw; */
-      min-width: 40vw;
+      min-width: 35vw;
+            text-align: center;
+            max-width: 500px;
       margin-top: 70px;
       color: var(--dark);
-      font-size: .8rem;
+      font-size: .7rem;
       /* border: 1px solid black; */
 }
 
@@ -308,7 +311,25 @@ a {
 .about img {
       width: 50vmin;
 
-      ;
+}
 
-      /* border: 1px solid blue; */
+.skills h3 {
+      text-align: center;
+      font-size: 1rem;
+}
+
+.skills .container .row {
+
+      border: 5px solid red;
+      align-items: center;
+}
+
+.skills .container .row .col {
+      height: 300px;
+      width: 250px;
+      border: 2px solid red;
+      margin: 30px 0;
+      color: black;
+      font-size: .5rem;
+
 }
