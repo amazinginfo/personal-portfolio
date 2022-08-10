@@ -16,10 +16,12 @@
     }
 
     nav .row .col-sm-10 {
-        font-size: .9rem;
+        font-size: calc(10px + .4rem);
+      
 
     }
 .skills .container .row .col {
     margin-top: 60px;
 }
+
 }

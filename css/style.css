@@ -284,7 +284,7 @@ a {
       align-items: center;
 }
 
-.about p {
+.about .mt-3 p {
       /* max-width: 10vw; */
       min-width: 35vw;
             text-align: center;
@@ -329,12 +329,19 @@ a {
       height: 300px;
       width: 250px;
       /* border: 2px solid red; */
-      color: black;
-      font-size: .5rem;
+      font-size: 15px;
       background-color: rgba(128, 128, 128, 0.316);
             border-radius: 6px;
       }
       
-                                                 .skills .container .row .middle {
-                                                       background-color: rgba(95, 206, 206, 0.837);
+.skills .container .row .middle {
+    background-color: rgba(95, 206, 206, 0.837);
+    color: black;
+}
+
+.skills .container .row .col p{
+     margin-top: calc(50% - 50px);
+     
+      text-align: center;
+      color: black;
 }
