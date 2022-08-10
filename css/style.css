@@ -341,10 +341,12 @@ a {
     color: black;
 }
 
-.skills .container .row .col p,h4 {
+.skills .container .row .col p,h3 {
 
       text-align: center;
       color: black;
       margin-top: 10px;
-
+}
+.skills .container .row .col h3{
+      margin-top: 20px;
 }
